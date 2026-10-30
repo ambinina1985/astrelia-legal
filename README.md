@@ -1,6 +1,6 @@
-# MyZodia — documents légaux
+# Astrelia — documents légaux
 
-Site statique contenant les documents légaux de l'application MyZodia, en français et en anglais :
+Site statique contenant les documents légaux de l'application Astrelia, en français et en anglais :
 
 | Page | Contenu |
 |---|---|
@@ -19,17 +19,17 @@ Site statique contenant les documents légaux de l'application MyZodia, en fran�
 ## Publier gratuitement avec GitHub Pages
 
 ```bash
-gh repo create myzodia-legal --public --source=. --push
-gh api -X POST repos/{owner}/myzodia-legal/pages -f "source[branch]=main" -f "source[path]=/"
+gh repo create astrelia-legal --public --source=. --push
+gh api -X POST repos/{owner}/astrelia-legal/pages -f "source[branch]=main" -f "source[path]=/"
 ```
 
-Les pages seront disponibles à `https://<compte>.github.io/myzodia-legal/`.
+Les pages seront disponibles à `https://<compte>.github.io/astrelia-legal/`.
 
 ## Brancher l'app
 
-Dans `MyZodia/Resources/Config.plist` de l'app :
+Dans `Astrelia/Resources/Config.plist` de l'app :
 
-- `PRIVACY_URL` → `https://<compte>.github.io/myzodia-legal/confidentialite.html`
-- `TERMS_URL` → `https://<compte>.github.io/myzodia-legal/conditions.html`
+- `PRIVACY_URL` → `https://<compte>.github.io/astrelia-legal/confidentialite.html`
+- `TERMS_URL` → `https://<compte>.github.io/astrelia-legal/conditions.html`
 
 Renseigner aussi l'URL de confidentialité dans App Store Connect (obligatoire).
