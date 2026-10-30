@@ -8,11 +8,13 @@ Site statique contenant les documents légaux de l'application Astrelia, en fran
 | `conditions.html` | Conditions d'utilisation (FR) |
 | `privacy.html` | Privacy Policy (EN) |
 | `terms.html` | Terms of Use (EN) |
-| `index.html` | Page d'accueil reliant les quatre documents |
+| `assistance.html` | Assistance et questions fréquentes (FR) |
+| `support.html` | Support & FAQ (EN) |
+| `index.html` | Page d'accueil reliant les documents |
 
 ## Avant publication
 
-1. Compléter les zones surlignées `[…]` : nom de l'éditeur, adresse, e-mail de contact, date, droit applicable, médiateur de la consommation.
+1. Éditeur et contact renseignés comme pour Atlas (Ambinina Andriamboavonjy, ambinina@gmail.com) ; à adapter si besoin. Si vous exercez à titre professionnel, nommer votre médiateur de la consommation dans `conditions.html`.
 2. Faire relire les textes par un juriste : ils décrivent fidèlement le fonctionnement de l'app (aucun compte, aucun serveur, données sur l'appareil, iCloud facultatif, achats Apple) mais ne remplacent pas un avis juridique.
 3. Mettre à jour ces documents si l'app évolue (compte en ligne, statistiques, serveur IA…).
 
